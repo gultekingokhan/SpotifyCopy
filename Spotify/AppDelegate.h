@@ -9,6 +9,12 @@
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
 
+#import "SPTabBarController.h"
+#import "SPNavigationController.h"
+
+//view controllers
+#import "HomeViewController.h"
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
@@ -17,6 +23,7 @@
 
 - (void)saveContext;
 
+@property (strong, nonatomic) SPTabBarController * tabBarController;
 
 @end
 

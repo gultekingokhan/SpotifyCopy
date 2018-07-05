@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "HomeViewController.h"
+
 
 @interface AppDelegate ()
 
@@ -20,13 +20,12 @@
     // Override point for customization after application launch.
     
     self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
-    HomeViewController * homeViewController = [[HomeViewController alloc] initWithNibName:@"HomeViewController" bundle:nil];
-    self.window.rootViewController = homeViewController;
+    self.tabBarController = [[SPTabBarController alloc] init];
+    self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
-    
+
     return YES;
 }
-
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
