@@ -1,0 +1,12 @@
+{"library":
+    [
+     {"text":"Your Daily Mix", "icon":"yourdaily_icn"},
+     {"text":"Playlists", "icon":"playlists_icn"},
+     {"text":"Stations", "icon":"stations_icn"},
+     {"text":"Songs", "icon":"songs_icn"},
+     {"text":"Albums", "icon":"albums_icn"},
+     {"text":"Artists", "icon":"artists_icn"},
+     {"text":"Podcasts", "icon":"podcast_icn"}
+    ]
+}
+    

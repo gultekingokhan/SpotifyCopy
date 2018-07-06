@@ -7,8 +7,14 @@
 //
 
 #import "LibraryViewController.h"
+#import "LibraryItemCell.h"
+#import "Parser.h"
 
-@interface LibraryViewController ()
+@interface LibraryViewController () <UITableViewDelegate, UITableViewDataSource>
+
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (strong, nonatomic) NSArray * objects;
+@property (strong, nonatomic) Parser * parser;
 
 @end
 
@@ -16,22 +22,39 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
-}
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    self.parser = [[Parser alloc] init];
+    NSLog(@"PARSED DATA:%@", [self.parser data]);
+    
+    UINib * nib = [UINib nibWithNibName:@"LibraryItemCell" bundle:nil];
+    [self.tableView registerNib:nib forCellReuseIdentifier:@"LibraryItemCell"];
+    
 }
 
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 0;
 }
 */
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return [[self.parser data] count];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+
+    LibraryItemCell * cell = [tableView dequeueReusableCellWithIdentifier:@"LibraryItemCell" forIndexPath:indexPath];
+    
+    NSString * text = [[[self.parser data] objectAtIndex:indexPath.row] objectForKey:@"text"];
+    NSString * icon = [[[self.parser data] objectAtIndex:indexPath.row] objectForKey:@"icon"];
+    cell.titleLabel.text = text;
+    cell.iconView.image = [UIImage imageNamed:icon];
+    
+    return cell;
+}
+
+
+
+
 
 @end
