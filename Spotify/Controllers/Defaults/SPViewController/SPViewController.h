@@ -1,5 +1,5 @@
 //
-//  HomeViewController.h
+//  SPViewController.h
 //  Spotify
 //
 //  Created by Gokhan Gultekin on 5.07.2018.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HomeViewController : UIViewController
+@interface SPViewController : UIViewController
 
 @end

@@ -17,6 +17,18 @@
 		7681BB1920EE927E001AB11B /* SpotifyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7681BB1820EE927E001AB11B /* SpotifyUITests.m */; };
 		7681BB2C20EE94FF001AB11B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7681BB2A20EE94FF001AB11B /* HomeViewController.m */; };
 		7681BB2D20EE94FF001AB11B /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7681BB2B20EE94FF001AB11B /* HomeViewController.xib */; };
+		7681BB3120EE9AE5001AB11B /* SPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7681BB3020EE9AE5001AB11B /* SPTabBarController.m */; };
+		7681BB3B20EE9C84001AB11B /* UIColor+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 7681BB3A20EE9C84001AB11B /* UIColor+Category.m */; };
+		7681BB3F20EEA109001AB11B /* SPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7681BB3E20EEA109001AB11B /* SPNavigationController.m */; };
+		7681BB4820EEAB7B001AB11B /* SPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7681BB4720EEAB7B001AB11B /* SPViewController.m */; };
+		7681BB4C20EEABDA001AB11B /* BrowseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7681BB4A20EEABDA001AB11B /* BrowseViewController.m */; };
+		7681BB4D20EEABDA001AB11B /* BrowseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7681BB4B20EEABDA001AB11B /* BrowseViewController.xib */; };
+		7681BB5120EEABFD001AB11B /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7681BB4F20EEABFD001AB11B /* SearchViewController.m */; };
+		7681BB5220EEABFD001AB11B /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7681BB5020EEABFD001AB11B /* SearchViewController.xib */; };
+		7681BB5620EEAC10001AB11B /* RadioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7681BB5420EEAC10001AB11B /* RadioViewController.m */; };
+		7681BB5720EEAC10001AB11B /* RadioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7681BB5520EEAC10001AB11B /* RadioViewController.xib */; };
+		7681BB5B20EEAC19001AB11B /* LibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7681BB5920EEAC19001AB11B /* LibraryViewController.m */; };
+		7681BB5C20EEAC19001AB11B /* LibraryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7681BB5A20EEAC19001AB11B /* LibraryViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +66,26 @@
 		7681BB2920EE94FF001AB11B /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		7681BB2A20EE94FF001AB11B /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		7681BB2B20EE94FF001AB11B /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		7681BB2F20EE9AE5001AB11B /* SPTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPTabBarController.h; sourceTree = "<group>"; };
+		7681BB3020EE9AE5001AB11B /* SPTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPTabBarController.m; sourceTree = "<group>"; };
+		7681BB3920EE9C84001AB11B /* UIColor+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Category.h"; sourceTree = "<group>"; };
+		7681BB3A20EE9C84001AB11B /* UIColor+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Category.m"; sourceTree = "<group>"; };
+		7681BB3D20EEA109001AB11B /* SPNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPNavigationController.h; sourceTree = "<group>"; };
+		7681BB3E20EEA109001AB11B /* SPNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPNavigationController.m; sourceTree = "<group>"; };
+		7681BB4620EEAB7B001AB11B /* SPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPViewController.h; sourceTree = "<group>"; };
+		7681BB4720EEAB7B001AB11B /* SPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPViewController.m; sourceTree = "<group>"; };
+		7681BB4920EEABDA001AB11B /* BrowseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrowseViewController.h; sourceTree = "<group>"; };
+		7681BB4A20EEABDA001AB11B /* BrowseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrowseViewController.m; sourceTree = "<group>"; };
+		7681BB4B20EEABDA001AB11B /* BrowseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BrowseViewController.xib; sourceTree = "<group>"; };
+		7681BB4E20EEABFD001AB11B /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		7681BB4F20EEABFD001AB11B /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		7681BB5020EEABFD001AB11B /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		7681BB5320EEAC10001AB11B /* RadioViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RadioViewController.h; sourceTree = "<group>"; };
+		7681BB5420EEAC10001AB11B /* RadioViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadioViewController.m; sourceTree = "<group>"; };
+		7681BB5520EEAC10001AB11B /* RadioViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RadioViewController.xib; sourceTree = "<group>"; };
+		7681BB5820EEAC19001AB11B /* LibraryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibraryViewController.h; sourceTree = "<group>"; };
+		7681BB5920EEAC19001AB11B /* LibraryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibraryViewController.m; sourceTree = "<group>"; };
+		7681BB5A20EEAC19001AB11B /* LibraryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryViewController.xib; sourceTree = "<group>"; };
 		9ADF12C26CB6AA79474E6652 /* Pods_Spotify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spotify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7EED6FA2E1F700AD9E408DB /* Pods-Spotify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spotify.release.xcconfig"; path = "Pods/Target Support Files/Pods-Spotify/Pods-Spotify.release.xcconfig"; sourceTree = "<group>"; };
 		FB7E86CE5E1B3DCFE0F87C4D /* Pods-Spotify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spotify.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Spotify/Pods-Spotify.debug.xcconfig"; sourceTree = "<group>"; };
@@ -162,9 +194,12 @@
 		7681BB2620EE94E5001AB11B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				7681BB2920EE94FF001AB11B /* HomeViewController.h */,
-				7681BB2A20EE94FF001AB11B /* HomeViewController.m */,
-				7681BB2B20EE94FF001AB11B /* HomeViewController.xib */,
+				7681BB4420EEAB4A001AB11B /* Defaults */,
+				7681BB4320EEAB3F001AB11B /* LibraryViewController */,
+				7681BB4220EEAB36001AB11B /* RadioViewController */,
+				7681BB4120EEAB2D001AB11B /* SearchViewController */,
+				7681BB4020EEAB23001AB11B /* BrowseViewController */,
+				7681BB3220EE9AEB001AB11B /* HomeViewController */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -172,6 +207,8 @@
 		7681BB2720EE94E9001AB11B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				7681BB3920EE9C84001AB11B /* UIColor+Category.h */,
+				7681BB3A20EE9C84001AB11B /* UIColor+Category.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -181,6 +218,93 @@
 			children = (
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		7681BB2E20EE9AC6001AB11B /* SPTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				7681BB2F20EE9AE5001AB11B /* SPTabBarController.h */,
+				7681BB3020EE9AE5001AB11B /* SPTabBarController.m */,
+			);
+			path = SPTabBarController;
+			sourceTree = "<group>";
+		};
+		7681BB3220EE9AEB001AB11B /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7681BB2920EE94FF001AB11B /* HomeViewController.h */,
+				7681BB2A20EE94FF001AB11B /* HomeViewController.m */,
+				7681BB2B20EE94FF001AB11B /* HomeViewController.xib */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		7681BB3C20EEA0EF001AB11B /* SPNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				7681BB3D20EEA109001AB11B /* SPNavigationController.h */,
+				7681BB3E20EEA109001AB11B /* SPNavigationController.m */,
+			);
+			path = SPNavigationController;
+			sourceTree = "<group>";
+		};
+		7681BB4020EEAB23001AB11B /* BrowseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7681BB4920EEABDA001AB11B /* BrowseViewController.h */,
+				7681BB4A20EEABDA001AB11B /* BrowseViewController.m */,
+				7681BB4B20EEABDA001AB11B /* BrowseViewController.xib */,
+			);
+			path = BrowseViewController;
+			sourceTree = "<group>";
+		};
+		7681BB4120EEAB2D001AB11B /* SearchViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7681BB4E20EEABFD001AB11B /* SearchViewController.h */,
+				7681BB4F20EEABFD001AB11B /* SearchViewController.m */,
+				7681BB5020EEABFD001AB11B /* SearchViewController.xib */,
+			);
+			path = SearchViewController;
+			sourceTree = "<group>";
+		};
+		7681BB4220EEAB36001AB11B /* RadioViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7681BB5320EEAC10001AB11B /* RadioViewController.h */,
+				7681BB5420EEAC10001AB11B /* RadioViewController.m */,
+				7681BB5520EEAC10001AB11B /* RadioViewController.xib */,
+			);
+			path = RadioViewController;
+			sourceTree = "<group>";
+		};
+		7681BB4320EEAB3F001AB11B /* LibraryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7681BB5820EEAC19001AB11B /* LibraryViewController.h */,
+				7681BB5920EEAC19001AB11B /* LibraryViewController.m */,
+				7681BB5A20EEAC19001AB11B /* LibraryViewController.xib */,
+			);
+			path = LibraryViewController;
+			sourceTree = "<group>";
+		};
+		7681BB4420EEAB4A001AB11B /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				7681BB4520EEAB6C001AB11B /* SPViewController */,
+				7681BB3C20EEA0EF001AB11B /* SPNavigationController */,
+				7681BB2E20EE9AC6001AB11B /* SPTabBarController */,
+			);
+			path = Defaults;
+			sourceTree = "<group>";
+		};
+		7681BB4520EEAB6C001AB11B /* SPViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7681BB4620EEAB7B001AB11B /* SPViewController.h */,
+				7681BB4720EEAB7B001AB11B /* SPViewController.m */,
+			);
+			path = SPViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +413,10 @@
 			files = (
 				7681BB0120EE927E001AB11B /* LaunchScreen.storyboard in Resources */,
 				7681BAFE20EE927E001AB11B /* Assets.xcassets in Resources */,
+				7681BB5720EEAC10001AB11B /* RadioViewController.xib in Resources */,
+				7681BB5C20EEAC19001AB11B /* LibraryViewController.xib in Resources */,
+				7681BB4D20EEABDA001AB11B /* BrowseViewController.xib in Resources */,
+				7681BB5220EEABFD001AB11B /* SearchViewController.xib in Resources */,
 				7681BB2D20EE94FF001AB11B /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,9 +464,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				7681BAFC20EE927C001AB11B /* Spotify.xcdatamodeld in Sources */,
+				7681BB3120EE9AE5001AB11B /* SPTabBarController.m in Sources */,
+				7681BB5120EEABFD001AB11B /* SearchViewController.m in Sources */,
 				7681BB0420EE927E001AB11B /* main.m in Sources */,
 				7681BAF320EE927C001AB11B /* AppDelegate.m in Sources */,
+				7681BB5620EEAC10001AB11B /* RadioViewController.m in Sources */,
+				7681BB5B20EEAC19001AB11B /* LibraryViewController.m in Sources */,
 				7681BB2C20EE94FF001AB11B /* HomeViewController.m in Sources */,
+				7681BB3B20EE9C84001AB11B /* UIColor+Category.m in Sources */,
+				7681BB3F20EEA109001AB11B /* SPNavigationController.m in Sources */,
+				7681BB4C20EEABDA001AB11B /* BrowseViewController.m in Sources */,
+				7681BB4820EEAB7B001AB11B /* SPViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

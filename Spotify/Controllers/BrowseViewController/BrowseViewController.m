@@ -1,22 +1,22 @@
 //
-//  HomeViewController.m
+//  BrowseViewController.m
 //  Spotify
 //
 //  Created by Gokhan Gultekin on 5.07.2018.
 //  Copyright © 2018 Gokhan. All rights reserved.
 //
 
-#import "HomeViewController.h"
+#import "BrowseViewController.h"
 
-@interface HomeViewController ()
+@interface BrowseViewController ()
 
 @end
 
-@implementation HomeViewController
+@implementation BrowseViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    
 }
 
 - (void)didReceiveMemoryWarning {
