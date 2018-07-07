@@ -10,6 +10,6 @@
 
 @interface Parser : NSObject
 
-- (NSArray*)data;
+- (NSArray*)dataFromKey:(NSString*)key;
 
 @end

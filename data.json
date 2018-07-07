@@ -7,6 +7,22 @@
      {"text":"Albums", "icon":"albums_icn"},
      {"text":"Artists", "icon":"artists_icn"},
      {"text":"Podcasts", "icon":"podcast_icn"}
+    ],
+ "recently_played":
+    [
+     {"type":"playlist", "name":"Playlist","owner":"Spotify"},
+     {"type":"artist", "name":"Artist"},
+     {"type":"artist", "name":"Artist"},
+     {"type":"playlist", "name":"Playlist","owner":"Spotify"},
+     {"type":"playlist", "name":"Playlist","owner":"Spotify"},
+     {"type":"playlist", "name":"Playlist","owner":"Spotify"},
+     {"type":"album", "name":"Album Name","owner":"Artist Name"},
+     {"type":"artist", "name":"Artist"},
+     {"type":"playlist", "name":"Playlist","owner":"Spotify"},
+     {"type":"artist", "name":"Artist"},
+     {"type":"album", "name":"Album Name","owner":"Artist Name"},
+     {"type":"artist", "name":"Artist"},
+     {"type":"album", "name":"Album Name","owner":"Artist Name"}
     ]
 }
     

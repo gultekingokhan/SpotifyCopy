@@ -35,6 +35,9 @@
 		7681BB5720EEAC10001AB11B /* RadioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7681BB5520EEAC10001AB11B /* RadioViewController.xib */; };
 		7681BB5B20EEAC19001AB11B /* LibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7681BB5920EEAC19001AB11B /* LibraryViewController.m */; };
 		7681BB5C20EEAC19001AB11B /* LibraryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7681BB5A20EEAC19001AB11B /* LibraryViewController.xib */; };
+		76D469E820F1379D00F15DDF /* LibrarySectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D469E720F1379D00F15DDF /* LibrarySectionView.m */; };
+		76D469ED20F14A9C00F15DDF /* RecentItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D469EB20F14A9C00F15DDF /* RecentItemCell.m */; };
+		76D469EE20F14A9C00F15DDF /* RecentItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76D469EC20F14A9C00F15DDF /* RecentItemCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +103,11 @@
 		7681BB5820EEAC19001AB11B /* LibraryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibraryViewController.h; sourceTree = "<group>"; };
 		7681BB5920EEAC19001AB11B /* LibraryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibraryViewController.m; sourceTree = "<group>"; };
 		7681BB5A20EEAC19001AB11B /* LibraryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryViewController.xib; sourceTree = "<group>"; };
+		76D469E620F1379D00F15DDF /* LibrarySectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibrarySectionView.h; sourceTree = "<group>"; };
+		76D469E720F1379D00F15DDF /* LibrarySectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibrarySectionView.m; sourceTree = "<group>"; };
+		76D469EA20F14A9C00F15DDF /* RecentItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecentItemCell.h; sourceTree = "<group>"; };
+		76D469EB20F14A9C00F15DDF /* RecentItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecentItemCell.m; sourceTree = "<group>"; };
+		76D469EC20F14A9C00F15DDF /* RecentItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecentItemCell.xib; sourceTree = "<group>"; };
 		9ADF12C26CB6AA79474E6652 /* Pods_Spotify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spotify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7EED6FA2E1F700AD9E408DB /* Pods-Spotify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spotify.release.xcconfig"; path = "Pods/Target Support Files/Pods-Spotify/Pods-Spotify.release.xcconfig"; sourceTree = "<group>"; };
 		FB7E86CE5E1B3DCFE0F87C4D /* Pods-Spotify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spotify.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Spotify/Pods-Spotify.debug.xcconfig"; sourceTree = "<group>"; };
@@ -167,13 +175,13 @@
 			path = "UIColor+Category";
 			sourceTree = "<group>";
 		};
-		762D407220EF6B23009F8FDE /* JS */ = {
+		762D407220EF6B23009F8FDE /* Parser */ = {
 			isa = PBXGroup;
 			children = (
 				762D407320EF6B41009F8FDE /* Parser.h */,
 				762D407420EF6B41009F8FDE /* Parser.m */,
 			);
-			path = JS;
+			path = Parser;
 			sourceTree = "<group>";
 		};
 		762D407920EF6D92009F8FDE /* LibraryItem */ = {
@@ -260,7 +268,7 @@
 			isa = PBXGroup;
 			children = (
 				762D407920EF6D92009F8FDE /* LibraryItem */,
-				762D407220EF6B23009F8FDE /* JS */,
+				762D407220EF6B23009F8FDE /* Parser */,
 				762D407120EF6B15009F8FDE /* UIColor+Category */,
 			);
 			path = Models;
@@ -269,6 +277,7 @@
 		7681BB2820EE94EE001AB11B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				76D469E520F1378400F15DDF /* LibrarySectionView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -334,6 +343,7 @@
 		7681BB4320EEAB3F001AB11B /* LibraryViewController */ = {
 			isa = PBXGroup;
 			children = (
+				76D469E920F14A6800F15DDF /* RecentItemCell */,
 				762D406B20EF64D9009F8FDE /* LibraryItemCell */,
 				7681BB5820EEAC19001AB11B /* LibraryViewController.h */,
 				7681BB5920EEAC19001AB11B /* LibraryViewController.m */,
@@ -359,6 +369,25 @@
 				7681BB4720EEAB7B001AB11B /* SPViewController.m */,
 			);
 			path = SPViewController;
+			sourceTree = "<group>";
+		};
+		76D469E520F1378400F15DDF /* LibrarySectionView */ = {
+			isa = PBXGroup;
+			children = (
+				76D469E620F1379D00F15DDF /* LibrarySectionView.h */,
+				76D469E720F1379D00F15DDF /* LibrarySectionView.m */,
+			);
+			path = LibrarySectionView;
+			sourceTree = "<group>";
+		};
+		76D469E920F14A6800F15DDF /* RecentItemCell */ = {
+			isa = PBXGroup;
+			children = (
+				76D469EA20F14A9C00F15DDF /* RecentItemCell.h */,
+				76D469EB20F14A9C00F15DDF /* RecentItemCell.m */,
+				76D469EC20F14A9C00F15DDF /* RecentItemCell.xib */,
+			);
+			path = RecentItemCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -468,6 +497,7 @@
 				762D407020EF64EA009F8FDE /* LibraryItemCell.xib in Resources */,
 				7681BB0120EE927E001AB11B /* LaunchScreen.storyboard in Resources */,
 				7681BAFE20EE927E001AB11B /* Assets.xcassets in Resources */,
+				76D469EE20F14A9C00F15DDF /* RecentItemCell.xib in Resources */,
 				7681BB5720EEAC10001AB11B /* RadioViewController.xib in Resources */,
 				7681BB5C20EEAC19001AB11B /* LibraryViewController.xib in Resources */,
 				7681BB4D20EEABDA001AB11B /* BrowseViewController.xib in Resources */,
@@ -524,10 +554,12 @@
 				7681BB3120EE9AE5001AB11B /* SPTabBarController.m in Sources */,
 				7681BB5120EEABFD001AB11B /* SearchViewController.m in Sources */,
 				762D406F20EF64EA009F8FDE /* LibraryItemCell.m in Sources */,
+				76D469ED20F14A9C00F15DDF /* RecentItemCell.m in Sources */,
 				7681BB0420EE927E001AB11B /* main.m in Sources */,
 				7681BAF320EE927C001AB11B /* AppDelegate.m in Sources */,
 				7681BB5620EEAC10001AB11B /* RadioViewController.m in Sources */,
 				7681BB5B20EEAC19001AB11B /* LibraryViewController.m in Sources */,
+				76D469E820F1379D00F15DDF /* LibrarySectionView.m in Sources */,
 				7681BB2C20EE94FF001AB11B /* HomeViewController.m in Sources */,
 				7681BB3B20EE9C84001AB11B /* UIColor+Category.m in Sources */,
 				7681BB3F20EEA109001AB11B /* SPNavigationController.m in Sources */,

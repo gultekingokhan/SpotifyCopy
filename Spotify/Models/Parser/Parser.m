@@ -10,9 +10,9 @@
 
 @implementation Parser
 
-- (NSArray*)data {
+- (NSArray*)dataFromKey:(NSString*)key {
     NSDictionary *dict = [self readJsonFromFile];
-    NSArray *library = [dict objectForKey:@"library"];
+    NSArray *library = [dict objectForKey:key];
     return library;
 }
 
